@@ -1,0 +1,125 @@
+html {
+    font-size: 24px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+
+
+#taskList input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+    font-size: 24px;
+}
+
+#subJob1 input,
+#subJob4 input {
+    display: block;
+    width: 380px;
+    margin: 10px auto;
+    height: 50px;
+    font-size: 18px;;
+}
+
+#cheque {
+    text-shadow: none;
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    font-stretch: condensed;
+}
+
+#cheque p {
+    margin: 5px 0;
+}
+
+.cheque__top {
+    font-weight: bold;
+}
+
+
+.cheque__list {
+    padding: 0 0 0 20px;
+}
+
+.cheque__list-name,
+.cheque__list-code {
+    text-align: left;
+}
+.cheque__list-price {
+    text-align: right;
+}
+
+.red .cheque__list-price {
+    color: red;
+}
+
+
+.cheque__sum {
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.cheque__aver {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+#task {
+    display: none;
+}
+
+#task h3 {
+    margin: 20px 0 10px;
+}
+
+#inputs {
+    display: none;
+}
+
+#inputs > input {
+    width: 160px;
+    margin: 0 auto;
+    font-size: 27px;
+    text-align: center;
+}
+
+#inputs input[name="btn11"] {
+    width: 170px;
+    margin: 50px auto 0;
+    display: block;
+}
+
+input[name="btn12"] {
+    display: block;
+    font-size: 27px;
+    width: 170px;
+    margin: 30px auto 0;
+}
+
+#task > p {
+    display: none;
+    width: 100%;
+}
+
+.result table{
+    margin: 0 auto 30px;
+}
+
+.result h2 {
+    width: 90vw;
+    display: block;
+    word-wrap: break-word;
+    font-size: 64px;
+}
